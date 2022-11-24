@@ -563,6 +563,9 @@ body{
         border-radius: 30px; 
         height: 100%;
         padding-left: 10px;
+        align-self: center;
+        padding-right: 5px;
+        padding-bottom: 20px;
         
     }
     .box_3{
@@ -594,7 +597,9 @@ body{
         height: 600px;
         border-radius: 20px;
         margin: 0px;
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-right: 0px;
+        align-self: center;
     }
     .b{
         width: 100%;
@@ -619,7 +624,7 @@ body{
     }
     .banner{
        width: 100% ;
-        padding-top: 0%;
+        padding-top: 15%;
         margin: 0%;
     }
     .beanner_1{
@@ -650,8 +655,8 @@ body{
  
     }
 }
-@media (max-width:900px){
-     nav{ 
+/* @media (max-width:900px){ */
+     /* nav{ 
        position: relative; 
        width: 100%;
      } 
@@ -681,7 +686,7 @@ body{
       font-size: 25px;
       color: #fff;
       /* visibility: hidden; */
-    }
+    /* }
       .sidebar-logo  i,
       .navbar .bx-menu{
         font-size: 25px;
@@ -726,11 +731,11 @@ body{
     }
     .navbar .links li .sub-menu .more span{
       /* background: red; */
-      display: flex;
-      align-items: center;
+      /* display: flex;
+      align-items: center; */
       /* justify-content: space-between; */
-    }
-  
+    /* } */
+/*   
     .links li .sub-menu .more:hover .more-sub-menu{
       display: none;
     }
@@ -754,5 +759,5 @@ body{
   @media (max-width:800px){
     nav .navbar .nav-links{
     max-width: 100%;
-  } 
-  }
+  }  */
+  
