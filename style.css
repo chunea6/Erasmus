@@ -374,13 +374,16 @@ body{
 }
 .img1{
     padding-left: 100px;
+    mix-blend-mode: color-burn;
 }
 .img2{
     padding-left: 125px;
+    mix-blend-mode: color-burn;
 }
 .img3{
     padding-left: 200px;
     padding-left: 150px;
+    mix-blend-mode: color-burn;
     
     
 }
@@ -446,7 +449,7 @@ body{
     }
     .banner{
         width: 100%;
-        padding-top: 167px;
+        padding-top: 500px;
    }
   
     .canda{
@@ -455,10 +458,13 @@ body{
     }
     .container_1{
         width: 100%;
+       
         
     }
     .line{
         width: 100%;
+        padding-bottom: 20px;
+        padding-top: 10px;
         
     }
     .obj{
@@ -473,7 +479,7 @@ body{
         width: 100%;
         padding-left: 100px;
         padding-right: 100px;
-        padding-top: 10px;
+        padding-top: 0px;
 
     }
     .obj_2{
@@ -482,7 +488,7 @@ body{
         padding-left: 100px;
         padding-right: 100px;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
 
     }
     .img1{
@@ -506,6 +512,7 @@ body{
         padding-left: 10px;
         padding-right: 40px;
         font-size: 15px;
+        text-align: justify;
     }
     .beanner_2{
         width: 100%;
@@ -526,7 +533,7 @@ body{
     }
     .column_x{
         width: 100%;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-top: 10px;
         margin: 0%;
         
@@ -534,7 +541,7 @@ body{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 220px;
+        padding-top: 300px;
         margin: 0%;
 
     }
@@ -542,6 +549,7 @@ body{
         width: 100%;
         padding-top: 80px;
         margin: 0%;
+       padding-left: 0px;
 
    }
     .box{
@@ -569,7 +577,7 @@ body{
         
     }
     .box_3{
-        width: 100%;
+        width: 103%;
         margin: 0px;
         display: block;
         height: 100%;
@@ -577,11 +585,13 @@ body{
         align-self: center;
         padding-left: 10px;
         padding-bottom: 20px;
+        padding-right: 5px;
     }
     .text{
         width: 100%;
         padding-left: 10px;
         margin: 0%;
+        text-align: justify;
     }
     .text_1{
         width: 100%;
@@ -589,7 +599,8 @@ body{
         margin: 0%;
     }
     .foto{
-        width: 250px;
+        width: 100%;
+        align-items: center;
     }
     .box_1{
         width: 100%;
@@ -609,7 +620,8 @@ body{
     
     
     .photo{
-        padding-left: 0px;  
+        padding-left: 0px; 
+        align-items: center;
         width: 100%;
        
     }
@@ -629,7 +641,7 @@ body{
     }
     .beanner_1{
         width: 100%;
-        padding-top: 0%;
+        padding-top: 15%;
     }
     .beanner_2{
         width: 100%;
@@ -653,6 +665,9 @@ body{
         align-items: center;
         padding-top: 10px;
  
+    }
+    .background{
+        width: 100%;
     }
 }
 /* @media (max-width:900px){ */
