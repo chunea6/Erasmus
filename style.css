@@ -599,11 +599,13 @@ body{
         width: 100%;
         margin: 0px;
         align-items: center;
+        mix-blend-mode: color-burn;
         }
     .img2{
         width: 100%;
         margin: 0px;
         align-items: center;
+        mix-blend-mode: color-burn;
 
     }
     .img3{
@@ -611,6 +613,7 @@ body{
         margin: 0px;
         align-items: center;
         padding-top: 10px;
+        mix-blend-mode: color-burn;
  
     }
     
