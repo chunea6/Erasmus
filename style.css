@@ -23,7 +23,7 @@
  
 .banner{
     width: 100%;
-    top: 0px;
+    padding-top: 50px;
 }
 .beanner_1{
     width: 100%;
@@ -31,6 +31,9 @@
 .beanner_2{
     width: 100%;
     height: 700px;
+}
+.beanner_3{
+    width: 100%;
 }
 
 .photo{
@@ -54,63 +57,7 @@
     padding-right: 100%;
 
 }
-.menu_bar ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
 
-.menu_bar ul li{
-    padding: 10px 50px;
-    position: relative;
-    align-items: center;
-    display: inline-block;
-}
-
-.menu_bar ul li a{
-    color:  #fff;
-    text-decoration: none;
-    font-size: 18px;
-    align-items: center;
-    transition:  all 0.3s;
-}
-
-.menu_bar ul li a:hover{
-    color: rgb(159, 159, 159);
-}
-.dropdown_menu{
-    display: none;
-    align-items: center;
-}
-
-.menu_bar ul li:hover .dropdown_menu{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #3838d8 ;
-    align-items: center;
-}
-
-.menu_bar ul li:hover .dropdown_menu ul{
-    display: block;
-    margin: 10px;
-    
-}
-
-.menu_bar ul li:hover .dropdown_menu ul li{
-    width: 100%;
-    padding: 10px;
-}
-
-  .menu_bar{
-    position: fixed; 
-    top: 0;
-    left: 0;
-    justify-content: right; 
-    display: flex; 
-    visibility: initial;
-} 
 
 .box{
     margin: 80px;
@@ -150,6 +97,7 @@
     text-align: justify;
     font-size: 20px;
     padding-left: 0px;
+    
 
 }
 .obj{
@@ -268,6 +216,7 @@ body{
  .line_1{
     background-color: rgb(226, 223, 223);
     border-radius: 10px;
+   
  }
 
 .text_info{
@@ -396,6 +345,9 @@ body{
 }
 .line{
     background-color: rgb(240, 240, 240);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
 }
 .canda{
     text-indent: 10px;
@@ -418,7 +370,7 @@ body{
 
     .z{
         width: 100%;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-right: 10px;
 
        
@@ -447,17 +399,14 @@ body{
         width: 290px;
         text-align: left;
     }
-    .banner{
-        width: 100%;
-        padding-top: 500px;
-   }
-  
     .canda{
         width: 100%;
         font-size: 10px;
     }
     .container_1{
         width: 100%;
+        margin: 0px;
+        padding-left: 0px;
        
         
     }
@@ -465,7 +414,7 @@ body{
         width: 100%;
         padding-bottom: 20px;
         padding-top: 10px;
-        
+        padding-left: 10px;    
     }
     .obj{
         width: 100%;
@@ -480,6 +429,7 @@ body{
         padding-left: 100px;
         padding-right: 100px;
         padding-top: 0px;
+        padding-bottom: 10px;
 
     }
     .obj_2{
@@ -488,7 +438,7 @@ body{
         padding-left: 100px;
         padding-right: 100px;
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
 
     }
     .img1{
@@ -514,11 +464,6 @@ body{
         font-size: 15px;
         text-align: justify;
     }
-    .beanner_2{
-        width: 100%;
-        height: auto;
-    }
-
     .row{
         width: 100%;
         padding-left: 0px;
@@ -617,8 +562,6 @@ body{
         padding-left: 10px;
         align-self: center;
     }
-    
-    
     .photo{
         padding-left: 0px; 
         align-items: center;
@@ -641,12 +584,16 @@ body{
     }
     .beanner_1{
         width: 100%;
-        padding-top: 15%;
+        padding-top: 14%;
     }
     .beanner_2{
         width: 100%;
+        height: auto;
     }
-    
+    .beanner_3{
+        width: 100%;
+        padding-top: 3%;
+    }
 
     .img1{
         width: 100%;
@@ -666,9 +613,7 @@ body{
         padding-top: 10px;
  
     }
-    .background{
-        width: 100%;
-    }
+    
 }
 /* @media (max-width:900px){ */
      /* nav{ 
