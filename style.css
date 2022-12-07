@@ -679,6 +679,9 @@ body{
         padding-top: 10px;
  
     }
+    .button{
+        width: 100%;
+    }
     
 }
 /* @media (max-width:900px){ */
