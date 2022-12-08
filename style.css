@@ -233,7 +233,9 @@ body{
     padding: 0;
 
 }
-
+.lin{
+    visibility: hidden;
+}
 .container{
 
     width: 80%;
@@ -417,6 +419,11 @@ body{
 
 @media only screen and (max-width:900px){
 
+    .lin{
+        display: block;
+        visibility: visible;
+        
+    }
     .z{
         width: 100%;
         padding-left: 10px;
@@ -520,10 +527,11 @@ body{
         margin: 0%;
     }
      .column{
-        padding-top: 20px;
+        padding-top: 900px;
         width: 100%;
         padding-left: 0px;
         margin: 0%;
+        position: absolute;
     }
     .column_x{
         width: 100%;
@@ -535,8 +543,9 @@ body{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 600px;
+        padding-top: 1200px;
         margin: 0%;
+        
 
     }
    .column_z{
