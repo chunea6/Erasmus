@@ -73,7 +73,7 @@
 .box_3{
     margin: 80px;
     display: block;
-    background-color: rgb(255, 206, 206);
+    background-color: rgba(0, 84, 110, 0.664);
     width: 300px;
     height: 200px;
     border-radius: 20px; }
@@ -140,7 +140,7 @@
 .box_2{
     margin: 80px;
     display: block;
-    background-color: #e0dbdb;
+    background-color: #00ff2281;
     width: 300px;
     height: 250px;
     border-radius: 30px; 
@@ -398,23 +398,28 @@ body{
 .text_con{
     padding-left: 25px;
     text-align: justify;
+    padding-right: 10px;
  
 }
 .text_con1{
     padding-left: 20px;
     text-align: justify;
+    padding-right: 10px;
     
 }
 .text_con2{
     padding-left: 50px;
     text-align: justify;
+    padding-right: 10px;
 }
 .button{
-    background-color: #fe0000;
+    background-color: #000000;
     align-items: center;
     border-radius: 20px;
     height: 8%;
     width: 30%;
+    box-shadow: 10px 10px 5px grey;
+    
 }
 
 @media only screen and (max-width:900px){
@@ -543,7 +548,7 @@ body{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1200px;
+        padding-top: 1250px;
         margin: 0%;
         
 
@@ -689,7 +694,7 @@ body{
  
     }
     .button{
-        width: 100%;
+        width: 70%;
     }
     .text_co{
         width: 100%;
@@ -713,109 +718,5 @@ body{
         margin: 0px;
     }
 }
-/* @media (max-width:900px){ */
-     /* nav{ 
-       position: relative; 
-       width: 100%;
-     } 
-    .navbar .bx-menu{
-      display: block;
-    }
-    nav .navbar .nav-links{
-      position: fixed;
-      top: 0;
-      left: -100%;
-      display: block;
-      max-width: 270px;
-      width: 100%;
-      background-image:linear-gradient(#0000ca,#3445cb);
-      line-height: 40px;
-      padding: 20px;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-      transition: all 0.5s ease;
-      z-index: 1000;
-    }
-    .navbar .nav-links .sidebar-logo{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .sidebar-logo .logo-name{
-      font-size: 25px;
-      color: #fff;
-      /* visibility: hidden; */
-    /* }
-      .sidebar-logo  i,
-      .navbar .bx-menu{
-        font-size: 25px;
-        color: #fff;
-      }
-    nav .navbar .links{
-      display: block;
-      margin-top: 20px;
-    }
-    nav .navbar .links li .arrow{
-      line-height: 40px;
-    }
-  nav .navbar .links li{
-      display: block;
-    }
-  nav .navbar .links li .sub-menu{
-    position: relative;
-    top: 0;
-    box-shadow: none;
-    display: none;
-  }
-  nav .navbar .links li .sub-menu li{
-    border-bottom: none;
-  
-  }
-  .navbar .links li .sub-menu .more-sub-menu{
-    display: none;
-    position: relative;
-    left: 0;
-  }
-  .navbar .links li .sub-menu .more-sub-menu li{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .links li:hover .htmlcss-arrow,
-  .links li:hover .js-arrow{
-    transform: rotate(0deg);
-    }
-    .navbar .links li .sub-menu .more-sub-menu{
-      display: none;
-    }
-    .navbar .links li .sub-menu .more span{
-      /* background: red; */
-      /* display: flex;
-      align-items: center; */
-      /* justify-content: space-between; */
-    /* } */
-/*   
-    .links li .sub-menu .more:hover .more-sub-menu{
-      display: none;
-    }
-    nav .navbar .links li:hover .htmlCss-sub-menu,
-    nav .navbar .links li:hover .js-sub-menu{
-      display: none;
-    }
-  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
-    .navbar .nav-links.show3 .links .js-sub-menu,
-    .navbar .nav-links.show2 .links .more .more-sub-menu{
-        display: block;
-      }
-      .navbar .nav-links.show1 .links .htmlcss-arrow,
-      .navbar .nav-links.show3 .links .js-arrow{
-          transform: rotate(180deg);
-  }
-      .navbar .nav-links.show2 .links .more-arrow{
-        transform: rotate(90deg);
-      }
-  }
-  @media (max-width:800px){
-    nav .navbar .nav-links{
-    max-width: 100%;
-  }  */
+
   
