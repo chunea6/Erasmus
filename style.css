@@ -475,14 +475,17 @@ nav .navbar .links li .sub-menu a:hover{
     width: 300px;
     height: 150px;
     border-radius: 30px; 
+    display: block;
    
 }
 .doc{
     padding-left: 65px;
+    display: block;
 }
 .c{
     padding-left: 0px;
     padding-top: 850px;
+    display: block;
 
 }
 
@@ -490,6 +493,7 @@ nav .navbar .links li .sub-menu a:hover{
     float: left;
     width: 25%;
     padding: 0px;
+    display: block;
 
 }
 .btn {
@@ -637,7 +641,7 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1350px;
+        padding-top: 1450px;
         margin: 0%;
         
 
@@ -663,7 +667,7 @@ nav .navbar .links li .sub-menu a:hover{
        padding-bottom: 15px;
    }
    .doc{
-    padding-left: 100px;
+    padding-left: 130px;
    }
     .box{
         width: 100%;
