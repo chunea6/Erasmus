@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  .background{
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(247, 131, 131));
+    background-color: #d7f7fe;
 } 
 .header{
     width: 100%;
@@ -30,7 +30,7 @@
 }
 .beanner_2{
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 .beanner_3{
     width: 100%;
@@ -76,7 +76,9 @@
     background-color: rgba(0, 84, 110, 0.664);
     width: 300px;
     height: 200px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    
+ }
 .text{
     padding-left: 15px;
     align-items:  center;
@@ -136,6 +138,10 @@
      padding-left: 300px;
    
 } 
+.d{
+    padding-left: 300px;
+    padding-top: -5000%;
+}
  
 .box_2{
     margin: 80px;
@@ -174,12 +180,15 @@
 .column_a{
     float: left;
     margin: 0px;
-    padding-top: 15%;
+    padding-top: 8%;
     padding-left: 21%;
     width: 25%;
     padding-bottom: 15px;
     
   
+    }
+    .column_p{
+        padding-top: 80%;
     }
 .box_a{
    background-color: #fbdc30bf;
@@ -422,6 +431,86 @@ body{
     
 }
 
+#list{
+    /* visibility: hidden; */
+    background-image:linear-gradient(#0000ca,#3445cb);
+    list-style-type: none;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 60px;
+    /* padding-bottom: 15px; */
+    color: white;
+    font-size: 17px;
+}
+.disabled-link{
+    cursor: pointer;
+    /* pointer-events: none; */
+    text-decoration: none;
+    color: white;
+}
+.disabled-link:hover{
+    color: yellow;
+}
+.navbar .links a:hover{
+    letter-spacing: 0.em;
+    font-size: 18px;
+    /* box-shadow:0px 0px 35px greenyellow; */
+    color: yellow;
+}
+nav .navbar .links li .sub-menu a:hover{
+    font-size: 18px;
+    box-shadow: none;
+    color: yellow;
+}
+.width-submenu{
+    width: 200px;
+}
+.items:hover{
+    color: yellow;
+}
+
+
+.box_6{
+    background-color: #ee9764;
+    width: 300px;
+    height: 150px;
+    border-radius: 30px; 
+   
+}
+.doc{
+    padding-left: 65px;
+}
+.c{
+    padding-left: 0px;
+    padding-top: 850px;
+
+}
+
+.column_n{
+    float: left;
+    width: 25%;
+    padding: 0px;
+
+}
+.btn {
+    background-color: rgb(95, 125, 155);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    
+  }
+  .btn:hover {
+    background-color: rgb(44, 55, 87);}
+    .logos{
+        width: 70px;
+        height: 70px;   
+        visibility: hidden;
+    }
+  
+
 @media only screen and (max-width:900px){
 
     .lin{
@@ -548,7 +637,7 @@ body{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1250px;
+        padding-top: 1350px;
         margin: 0%;
         
 
@@ -565,6 +654,16 @@ body{
         margin: 0%;
        padding-left: 0px;
        padding-bottom: 15px;
+   }
+   .column_n{
+    width: 100%;
+        padding-top: 0px;
+        margin: 0%;
+       padding-left: 0px;
+       padding-bottom: 15px;
+   }
+   .doc{
+    padding-left: 100px;
    }
     .box{
         width: 100%;
@@ -612,6 +711,18 @@ body{
         padding-bottom: 20px;
         padding-right: 5px;
     }
+    .box_6{
+        width: 100%;
+        margin: 0px;
+        display: block;
+        height: 100%;
+        border-radius: 30px;
+        align-self: center;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+       
+    }
     .text{
         width: 100%;
         padding-left: 10px;
@@ -642,6 +753,13 @@ body{
         padding-left: 10px;
         align-self: center;
     }
+    .c{
+        width: 100%;
+        padding-left: 10px;
+        align-self: center;
+        padding-top: 50px;
+    }
+
     .photo{
         padding-left: 0px; 
         align-items: center;
@@ -668,7 +786,8 @@ body{
     }
     .beanner_2{
         width: 100%;
-        height: auto;
+        height: 100%;
+        padding-top: 15%;
     }
     .beanner_3{
         width: 100%;
@@ -717,6 +836,12 @@ body{
         text-align: justify;
         margin: 0px;
     }
+    .logos{
+        width: 70px;
+        height: 70px;  
+        visibility: visible; 
+    }
 }
+
 
   

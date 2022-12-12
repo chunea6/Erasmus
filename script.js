@@ -1,7 +1,7 @@
 // search-box open close js code
 let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
-// let searchBoxCancel = document.querySelector(".search-box .bx-x");
+let searchBoxCancel = document.querySelector(".search-box .bx-x");
 
 searchBox.addEventListener("click", ()=>{
   navbar.classList.toggle("showInput");
@@ -11,6 +11,20 @@ searchBox.addEventListener("click", ()=>{
     searchBox.classList.replace("bx-x" ,"bx-search");
   }
 });
+
+function search_item(){
+  let input=document.getElementById('searchbar').value
+  input=input.toLowerCase();
+  let x=document.getElementsByClassName('items');
+  for(i=0;i<x.length;++i){
+    if(!x[i].innerHTML.toLowerCase().includes(input)){
+      x[i].style.display="none";
+    }
+    else{
+      x[i].style.display="list-item";
+    }
+  }
+}
 
 // sidebar open close js code
 let navLinks = document.querySelector(".nav-links");
