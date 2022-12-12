@@ -138,10 +138,7 @@
      padding-left: 300px;
    
 } 
-.d{
-    padding-left: 300px;
-    padding-top: -5000%;
-}
+
  
 .box_2{
     margin: 80px;
@@ -641,7 +638,7 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1450px;
+        padding-top: 1500px;
         margin: 0%;
         
 
@@ -667,7 +664,7 @@ nav .navbar .links li .sub-menu a:hover{
        padding-bottom: 15px;
    }
    .doc{
-    padding-left: 130px;
+    padding-left: 110px;
    }
     .box{
         width: 100%;
