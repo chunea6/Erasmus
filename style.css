@@ -527,7 +527,7 @@ nav .navbar .links li .sub-menu a:hover{
        
     }
     .footer{
-        width: 100%;
+        width: 105%;
     }
     .inner-footer{
         width: 100%;
@@ -622,7 +622,7 @@ nav .navbar .links li .sub-menu a:hover{
         margin: 0%;
     }
      .column{
-        padding-top: 900px;
+        padding-top: 950px;
         width: 100%;
         padding-left: 0px;
         margin: 0%;
@@ -638,7 +638,7 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1550px;
+        padding-top: 1650px;
         margin: 0%;
         
 
@@ -777,7 +777,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-left: 10px;
     }
     .banner{
-        width: 100% ;
+        width: 105% ;
         padding-top: 15%;
         margin: 0%;
     }
