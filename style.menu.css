@@ -206,6 +206,9 @@ nav .navbar .links li:hover .js-sub-menu{
     font-size: 15px;
   }
 }
+.width-submenu{
+  width: 200px;
+}
 @media (max-width:800px){
   /* nav{ */
     /* position: relative; */
