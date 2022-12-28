@@ -425,6 +425,7 @@ body{
     height: 8%;
     width: 30%;
     box-shadow: 10px 10px 5px grey;
+    border-color: #fff;
     
 }
 
@@ -527,7 +528,7 @@ nav .navbar .links li .sub-menu a:hover{
        
     }
     .footer{
-        width: 105%;
+        width: 100%;
     }
     .inner-footer{
         width: 100%;
@@ -777,7 +778,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-left: 10px;
     }
     .banner{
-        width: 105% ;
+        width: 100% ;
         padding-top: 15%;
         margin: 0%;
     }
