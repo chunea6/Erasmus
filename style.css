@@ -97,6 +97,7 @@
     margin: 80px;
   
 }
+
 .text_1{
     color: #000;
     text-align: justify;
@@ -174,15 +175,22 @@
     width: 25%;
     padding: 0px;
 }
-.column_a{
+.column_e{
     float: left;
     margin: 0px;
     padding-top: 8%;
     padding-left: 21%;
     width: 25%;
     padding-bottom: 15px;
-    
-  
+    padding-top: 250px;
+
+}
+.column_a{
+    float: left;
+    margin: 0px;
+    padding-left: 21%;
+    width: 25%;
+    padding-bottom: 15px;
     }
     .column_p{
         padding-top: 80%;
@@ -196,6 +204,15 @@
     display: block; 
    
     
+}
+.box_e{
+    background-color: #51bcb7bf;
+    width: 330px;
+    height: 800px;
+    border-radius:30px;
+    margin: 0px;
+    display: block; 
+
 }
 .text_3{
     padding-right: 25px;
@@ -476,6 +493,15 @@ nav .navbar .links li .sub-menu a:hover{
     display: block;
    
 }
+.box_i{
+    background-color: #9566aa99;
+    width: 330px;
+    height: 1050px;
+    border-radius: 30px; 
+    display: block;
+    
+}
+
 .doc{
     padding-left: 65px;
     display: block;
@@ -493,6 +519,15 @@ nav .navbar .links li .sub-menu a:hover{
     padding: 0px;
     display: block;
 
+}
+.column_i{
+    float: left;
+    width: 25%;
+    padding-right: 100px;
+    padding-left: 750px;
+    display: block;
+    padding-top: 210px;
+    
 }
 .btn {
     background-color: rgb(95, 125, 155);
@@ -529,6 +564,8 @@ nav .navbar .links li .sub-menu a:hover{
     }
     .footer{
         width: 100%;
+        position: absolut;
+        padding-top: 800px;
     }
     .inner-footer{
         width: 100%;
@@ -639,8 +676,9 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 1650px;
+        padding-top: 5300px;
         margin: 0%;
+        position: absolute;
         
 
     }
@@ -648,21 +686,43 @@ nav .navbar .links li .sub-menu a:hover{
         width: 100%;
         padding-top: 60px;
         margin: 0%;
-       padding-left: 0px;
-       padding-bottom: 15px;}
+        padding-left: 0px;
+        padding-bottom: 0px;}
     .column_a{
         width: 100%;
         padding-top: 60px;
         margin: 0%;
-       padding-left: 0px;
-       padding-bottom: 15px;
+        padding-left: 0px;
+        padding-bottom: 15px;
    }
+   .column_e{
+    width: 100%;
+    padding-top: 2450px;
+    margin: 0%;
+    padding-left: 0px;
+    padding-bottom: 15px;
+   }
+   .column_i{
+        pad: 50%;
+        padding-top:000px; 
+        width: 100%; 
+   }
+   .box_i{
+    padding-top: 0%;
+    width: 100%;
+   }
+   .box_e{
+    width: 100%;
+}
+   
    .column_n{
     width: 100%;
-        padding-top: 0px;
-        margin: 0%;
-       padding-left: 0px;
-       padding-bottom: 15px;
+    padding-top: 5750px;
+    margin: 0%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    
    }
    .doc{
     padding-left: 100px;
@@ -710,8 +770,9 @@ nav .navbar .links li .sub-menu a:hover{
         border-radius: 30px;
         align-self: center;
         padding-left: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         padding-right: 5px;
+        position: relative;
     }
     .box_6{
         width: 100%;
@@ -721,8 +782,10 @@ nav .navbar .links li .sub-menu a:hover{
         border-radius: 30px;
         align-self: center;
         padding-left: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         padding-right: 5px;
+        position: relative;
+        
        
     }
     .text{
