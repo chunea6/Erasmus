@@ -598,7 +598,7 @@ nav .navbar .links li .sub-menu a:hover{
     .footer{
         width: 100%;
         position: absolut;
-        padding-top: 800px;
+        padding-top: 600px;
     }
     .inner-footer{
         width: 100%;
@@ -731,7 +731,7 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 5950px;
+        padding-top: 6000px;
         margin: 0%;
         position: absolute;
         
@@ -751,7 +751,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-bottom: 15px;
    }
    .column_e{
-    width: 100%;
+    width: 110%;
     padding-top: 2550px;
     margin: 0%;
     padding-left: 0px;
@@ -773,7 +773,7 @@ nav .navbar .links li .sub-menu a:hover{
    
    .column_n{
     width: 100%;
-    padding-top: 2350px;
+    padding-top: 2400px;
     margin: 0%;
     padding-left: 0px;
     padding-bottom: 0px;
