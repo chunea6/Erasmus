@@ -731,7 +731,7 @@ nav .navbar .links li .sub-menu a:hover{
     .column_y{  
         width: 100%;
         padding-left: 0px;
-        padding-top: 6000px;
+        padding-top: 6050px;
         margin: 0%;
         position: absolute;
         
@@ -772,16 +772,20 @@ nav .navbar .links li .sub-menu a:hover{
 }
    
    .column_n{
-    width: 100%;
-    padding-top: 2400px;
+    width: 350px;
+    height: 10px;
+    padding-top: 2320px;
     margin: 0%;
     padding-left: 0px;
     padding-bottom: 0px;
     position: absolute;
+    align-self: center;
     
    }
    .doc{
-    padding-left: 100px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
    }
     .box{
         width: 100%;
