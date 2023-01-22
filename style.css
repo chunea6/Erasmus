@@ -184,6 +184,7 @@
     padding: 0px;
     display: block;
     
+    
 }
 .column_h{
     float: left;
@@ -197,7 +198,7 @@
 }
 .anunt{
     height: 150px;
-    padding-left: 550px;
+    padding-left: 500px;
     padding-top: 0%;
 }
 .info_p{
@@ -213,6 +214,7 @@
     width: 25%;
     padding-bottom: 15px;
     padding-top: 250px;
+   
 
 }
 .column_a{
@@ -559,7 +561,8 @@ nav .navbar .links li .sub-menu a:hover{
     padding-left: 750px;
     display: block;
     padding-top: 210px;
-    margin: 0;  
+    margin: 0; 
+    height: 0px; 
     
 }
 .btn {
@@ -598,7 +601,7 @@ nav .navbar .links li .sub-menu a:hover{
     .footer{
         width: 100%;
         position: absolut;
-        padding-top: 600px;
+        padding-top: 650px;
     }
     .inner-footer{
         width: 100%;
@@ -698,6 +701,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-left: 0px;
         margin: 0%;
         position: absolute;
+
     }
     .column_h{
         padding-top: 50px;
@@ -762,6 +766,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-top: 50px;
         padding-left:10px; 
         width: 100%; 
+        height: 100%;
    }
    .box_i{
     padding-top: 0%;
@@ -775,7 +780,7 @@ nav .navbar .links li .sub-menu a:hover{
    .column_n{
     width: 350px;
     height: 10px;
-    padding-top: 2400px;
+    padding-top: 2250px;
     margin: 0%;
     padding-left: 0px;
     padding-bottom: 0px;
@@ -783,9 +788,13 @@ nav .navbar .links li .sub-menu a:hover{
     align-self: center;
     
    }
+   .but{
+    padding-top: 150px;
+   }
    .doc{
     padding-left: 10px;
     padding-bottom: 10px;
+    position: relative;
     
    }
     .box{
@@ -873,6 +882,7 @@ nav .navbar .links li .sub-menu a:hover{
         padding-left: 20px;
         padding-right: 0px;
         align-self: center;
+        position: absolute;
     }
     .b{
         width: 100%;
@@ -944,6 +954,7 @@ nav .navbar .links li .sub-menu a:hover{
         display: block;
         padding-bottom: 10px;
         padding-top: 15px;
+        position: absolute;
     }
     .text_co{
         width: 100%;
