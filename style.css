@@ -751,11 +751,12 @@ nav .navbar .links li .sub-menu a:hover{
         padding-bottom: 15px;
    }
    .column_e{
-    width: 110%;
+    width: 100%;
     padding-top: 2550px;
     margin: 0%;
     padding-left: 0px;
     padding-bottom: 15px;
+    height: 110;
    }
    .column_i{
         padding-top: 50px;
