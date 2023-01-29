@@ -606,6 +606,11 @@ nav .navbar .links li .sub-menu a:hover{
     .footer{
         width: 100%;
         position: absolut;
+        
+    }
+    .footer_i{
+        width: 100%;
+        position: absolut;
         padding-top: 650px;
     }
     .inner-footer{
