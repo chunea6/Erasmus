@@ -347,6 +347,7 @@ body{
     text-align: center;
     padding: 20px;
     width: 100%;
+    margin: 0px;
   
 }
 
@@ -354,10 +355,10 @@ body{
     padding: 10px;
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 100px;
     margin: 5px;
     align-items: center;
-    width: 100%;
+    
 }
 
 .social-items{
@@ -411,10 +412,11 @@ body{
 }
 
 .contact_1{
-    padding-top: 80px;
+    padding-top: -20px;
     text-align: justify;
     padding-left: 1100px;
-    position: relative;
+    height: 0px;
+    position: absolute;
 }
 
 
@@ -614,6 +616,7 @@ nav .navbar .links li .sub-menu a:hover{
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
+        position: relative;
         
 
        
@@ -657,6 +660,7 @@ nav .navbar .links li .sub-menu a:hover{
         margin:0%;
         padding-top: 300px;
         padding-right: 75px;
+        height: 0px;
     }
     .canda{
         width: 100%;
